@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | Repuestos Morales</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+/* MENÚ */
+header{
+    background:#0d47a1;
+    color:white;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    margin:auto;
+}
+
+nav h1{
+    margin:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width:85%;
+    margin:auto;
+    margin-top:40px;
+}
+
+/* TÍTULO */
+.titulo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.titulo h2{
+    color:#0d47a1;
+}
+
+/* FORMULARIO */
+.contacto{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.formulario{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    flex:1;
+    min-width:280px;
+}
+
+.formulario input,
+.formulario textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.formulario button{
+    background:#0d47a1;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.formulario button:hover{
+    background:#08306b;
+}
+
+/* INFORMACIÓN */
+.info{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    flex:1;
+    min-width:280px;
+}
+
+.info h3{
+    color:#0d47a1;
+}
+
+/* PIE DE PÁGINA */
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<h1>Repuestos Morales</h1>
+
+<ul>
+<li><a href="inicio.html">Inicio</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="galería.html">Galería</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+
+</nav>
+</header>
+
+<div class="contenedor">
+
+<div class="titulo">
+<h2>Contáctanos</h2>
+<p>Estamos para ayudarte con cualquier consulta sobre nuestros repuestos.</p>
+</div>
+
+<div class="contacto">
+
+<div class="formulario">
+
+<h3>Envíanos un mensaje</h3>
+
+<form>
+<input type="text" placeholder="Nombre" required>
+<input type="email" placeholder="Correo electrónico" required>
+<textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+
+</div>
+
+<div class="info">
+
+<h3>Información de contacto</h3>
+
+<p><b>📍 Dirección:</b> Santa Lucía Cotzumalguapa, Escuintla</p>
+<p><b>📞 Teléfono:</b> +502 3040-5912</p>
+<p><b>📧 Correo:</b> repuestosmorales@gmail.com</p>
+<p><b>🕒 Horario:</b> Lunes a Sábado 8:00 AM - 6:00 PM</p>
+
+</div class="mapa">
+
+<iframe
+src="http://www.google.com/maps?q=Santa%20Lucia%20Cotzumalguapa%20Escuintla&output=embed"
+width="100%"
+height="250"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Repuestos Morales | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
